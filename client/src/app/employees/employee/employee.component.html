@@ -1,0 +1,22 @@
+<form class="form" #form="ngForm" (submit)="onSubmit(form)" autocomplete="off">
+  <input type="hidden" name="id" #id="ngModel" [(ngModel)]="service.formData.id">
+  <div class="form-group row m-0 p-0">
+    <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12 my-1">
+      <input name="FullName" #FullName="ngModel" [(ngModel)]="service.formData.FullName" class="form-control" required placeholder="FullName">
+      <div class="validation-error" *ngIf="FullName.invalid && FullName.touched">This field is required.</div>
+    </div>
+    <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12 my-1">
+      <input name="Mobile" #Mobile="ngModel" [(ngModel)]="service.formData.Mobile" class="form-control" placeholder="Mobile">
+    </div>
+    <div class="col-lg-2 col-md-6 col-sm-12 col-xs-12 my-1">
+      <input name="Position" #Position="ngModel" [(ngModel)]="service.formData.Position" class="form-control" placeholder="Position">
+    </div>
+    <div class="col-lg-2 col-md-6 col-sm-12 col-xs-12 my-1">
+      <input name="EMPCode" #EMPCode="ngModel" [(ngModel)]="service.formData.EMPCode" class="form-control" placeholder="EMPCode">
+    </div>
+    <div class="col-lg-2 col-md-12 col-sm-12 col-xs-12 my-1">
+      <button type="submit" [disabled]="form.invalid" class="btn btn-success btn-block">SUBMIT</button>
+    </div>
+  </div>
+</form>
+

@@ -2,20 +2,43 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="90755c65-69e2-441e-928f-b31d3951599e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../client/src/app/tasks/task.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../client/src/app/tasks/tasks.component.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../client/src/app/tasks/tasks.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../client/src/app/tasks/tasks.component.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../client/src/app/tasks/tasks.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../client/src/app/tasks/tasks.service.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../client/src/app/employees-old/employee.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../client/src/app/employees-old/employees.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../client/src/app/employees-old/employees.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../client/src/app/employees-old/employees.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../client/src/app/employees-old/employees.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../client/src/app/employees-old/employees.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../client/src/app/employees/employee-list/employee-list.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../client/src/app/employees/employee-list/employee-list.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../client/src/app/employees/employee-list/employee-list.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../client/src/app/employees/employee-list/employee-list.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../client/src/app/employees/employee/employee.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../client/src/app/employees/employee/employee.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../client/src/app/employees/employee/employee.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../client/src/app/employees/employee/employee.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../client/src/app/employees/employees.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../client/src/app/employees/employees.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../client/src/app/employees/employees.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../client/src/app/employees/employees.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../client/src/app/shared/convert-to-dash.pipe.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../client/src/app/shared/employee.model.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../client/src/app/shared/employee.service.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../client/src/app/shared/employee.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../client/src/plugins/datatables-bs4/css/dataTables.bootstrap4.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../client/src/plugins/datatables-bs4/css/dataTables.bootstrap4.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../client/src/plugins/datatables-bs4/js/dataTables.bootstrap4.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../client/src/plugins/datatables-bs4/js/dataTables.bootstrap4.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Employee.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Client/EmployeeController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2020_09_01_164948_create_employees_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/angular.json" beforeDir="false" afterPath="$PROJECT_DIR$/../client/angular.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../client/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../client/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../client/proxy.conf.json" beforeDir="false" afterPath="$PROJECT_DIR$/../client/proxy.conf.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../client/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../client/src/app/app.component.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../client/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../client/src/app/app.module.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../client/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../client/src/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../client/src/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/../client/src/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -167,11 +190,33 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1598965464798</updated>
-      <workItem from="1598965473021" duration="690000" />
+      <workItem from="1598965473021" duration="7650000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="413" y="118" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1598981327215">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="413" y="118" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1366.728@0.0.1366.728" timestamp="1598981327215" />
+    <state width="1323" height="158" key="GridCell.Tab.0.bottom" timestamp="1599001114963">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="158" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1599001114963" />
+    <state width="1323" height="158" key="GridCell.Tab.0.center" timestamp="1599001114963">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="158" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1599001114963" />
+    <state width="1323" height="158" key="GridCell.Tab.0.left" timestamp="1599001114963">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="158" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1599001114963" />
+    <state width="1323" height="158" key="GridCell.Tab.0.right" timestamp="1599001114963">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="158" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1599001114963" />
   </component>
 </project>

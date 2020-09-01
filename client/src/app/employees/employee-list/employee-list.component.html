@@ -1,0 +1,25 @@
+<table id="example" class="table table-striped table-bordered" style="width:100%">
+  <thead>
+  <tr>
+    <th>EMPCode</th>
+    <th>FullName</th>
+    <th>Mobile</th>
+    <th>Position</th>
+    <th>Action</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr *ngFor='let emp of service.list'>
+    <td (click)="populateForm(emp)">[{{emp.EMPCode}}]</td>
+    <td (click)="populateForm(emp)">{{emp.FullName}}</td>
+    <td (click)="populateForm(emp)">{{emp.Mobile}}</td>
+    <td (click)="populateForm(emp)">{{emp.Position}}</td>
+    <td style="text-align:center;">
+      <button  (click)="onDelete(emp.id)" class="btn btn-danger btn-sm mx-1">Delete</button>
+    </td>
+  </tr>
+  </tbody>
+</table>
+
+
+

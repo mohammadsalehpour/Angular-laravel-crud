@@ -24,9 +24,13 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "src/plugins/datatables-bs4/css/dataTables.bootstrap4.css"
             ],
-            "scripts": []
+            "scripts": [
+              "src/plugins/datatables-bs4/js/dataTables.bootstrap4.js",
+              "src/plugins/datatables-bs4/js/dataTables.bootstrap4.min.js"
+            ]
           },
           "configurations": {
             "production": {
